@@ -38,11 +38,9 @@ paste the output here, including the closing JSON block
 ## Eval iterations
 
 Quote source text directly in each field below. Paraphrase does not satisfy them.
-
+Note: There are several runs I have not included because they resulted in errors
 **Run history**
 
-agreement: 7/13 scored items
-7 item(s) errored; fix and re-run.
 -------
 ```
 item      gold    verdict  agree  note
