@@ -44,6 +44,7 @@ Quote source text directly in each field below. Paraphrase does not satisfy them
 agreement: 7/13 scored items
 7 item(s) errored; fix and re-run.
 -------
+```
 item      gold    verdict  agree  note
 issue-01  accept  reject   NO     failed: bounded-scope
 issue-02  reject  reject   yes
@@ -65,10 +66,11 @@ issue-17  reject  reject   yes
 issue-18  reject  reject   yes
 issue-19  accept  reject   NO     failed: used-repo (preferred), bounded-scope
 issue-20  reject  reject   yes
-
+```
 categories: claimed 4/4  clear-accept 0/8  dead-repo 3/3  policy 1/1  scope 4/4
 agreement: 12/20 scored items  (bar: 18/20: below the bar; category floor unmet: no match in clear-accept)
 -------
+```
 item      gold    verdict  agree  note
 issue-01  accept  reject   NO     failed: bounded-scope
 issue-02  reject  reject   yes
@@ -90,10 +92,11 @@ issue-17  reject  reject   yes
 issue-18  reject  reject   yes
 issue-19  accept  reject   NO     failed: bounded-scope
 issue-20  reject  reject   yes
-
+```
 categories: claimed 4/4  clear-accept 5/8  dead-repo 3/3  policy 1/1  scope 3/4
 agreement: 16/20 scored items  (bar: 18/20: below the bar)
 --------
+```
 item      gold    verdict  agree  note
 issue-01  accept  reject   NO     failed: bounded-scope, unclaimed
 issue-02  reject  reject   yes
@@ -115,10 +118,11 @@ issue-17  reject  reject   yes
 issue-18  reject  reject   yes
 issue-19  accept  reject   NO     failed: bounded-scope, unclaimed
 issue-20  reject  reject   yes
-
+```
 categories: claimed 4/4  clear-accept 1/8  dead-repo 3/3  policy 0/1  scope 4/4
 agreement: 12/20 scored items  (bar: 18/20: below the bar; category floor unmet: no match in policy)
 -----------
+```
 item      gold    verdict  agree  note
 issue-01  accept  reject   NO     failed: bounded-scope
 issue-02  reject  reject   yes
@@ -140,18 +144,20 @@ issue-17  reject  reject   yes
 issue-18  reject  accept   NO     graded accept
 issue-19  accept  reject   NO     failed: bounded-scope
 issue-20  reject  reject   yes
-
+```
 categories: claimed 3/4  clear-accept 4/8  dead-repo 3/3  policy 1/1  scope 4/4
 agreement: 15/20 scored items  (bar: 18/20: below the bar)
 -------
+```
 item      gold    verdict  agree  note
 issue-01  accept  reject   NO     failed: bounded-scope
 issue-04  accept  accept   yes
 issue-10  reject  reject   yes
 issue-14  accept  accept   yes
-
+```
 agreement: 3/4 scored items
 --------
+```
   issue-14: accept
   issue-19: reject
   issue-01: reject
@@ -162,17 +168,19 @@ issue-01  accept  reject   NO     failed: bounded-scope
 issue-04  accept  reject   NO     failed: bounded-scope
 issue-14  accept  accept   yes
 issue-19  accept  reject   NO     failed: bounded-scope
-
+```
 agreement: 1/4 scored items
 -------
+```
 item      gold    verdict  agree  note
 issue-01  accept  reject   NO     failed: bounded-scope
 issue-04  accept  accept   yes
 issue-14  accept  accept   yes
 issue-19  accept  reject   NO     failed: bounded-scope
-
+```
 agreement: 2/4 scored items
 --------
+```
 item      gold    verdict  agree  note
 issue-01  accept  reject   NO     failed: bounded-scope
 issue-02  reject  reject   yes
@@ -194,10 +202,11 @@ issue-17  reject  reject   yes
 issue-18  reject  accept   NO     graded accept
 issue-19  accept  reject   NO     failed: bounded-scope
 issue-20  reject  reject   yes
-
+```
 categories: claimed 3/4  clear-accept 6/8  dead-repo 3/3  policy 0/1  scope 3/4
 agreement: 15/20 scored items  (bar: 18/20: below the bar; category floor unmet: no match in policy)
 --------
+```
 item      gold    verdict  agree  note
 issue-01  accept  reject   NO     failed: bounded-scope
 issue-12  reject  reject   yes
@@ -205,9 +214,10 @@ issue-14  accept  accept   yes
 issue-15  reject  accept   NO     graded accept
 issue-18  reject  accept   NO     graded accept
 issue-19  accept  reject   NO     failed: bounded-scope
-
+```
 agreement: 2/6 scored items
 ------
+```
 item      gold    verdict  agree  note
 issue-01  accept  reject   NO     failed: bounded-scope
 issue-12  reject  reject   yes
@@ -215,9 +225,10 @@ issue-14  accept  accept   yes
 issue-15  reject  reject   yes
 issue-18  reject  reject   yes
 issue-19  accept  reject   NO     failed: bounded-scope
-
+```
 agreement: 4/6 scored items
 ------
+```
 item      gold    verdict  agree  note
 issue-01  accept  reject   NO     failed: bounded-scope
 issue-02  reject  reject   yes
@@ -239,16 +250,16 @@ issue-17  reject  reject   yes
 issue-18  reject  reject   yes
 issue-19  accept  reject   NO     failed: bounded-scope
 issue-20  reject  reject   yes
-
+```
 categories: claimed 4/4  clear-accept 6/8  dead-repo 3/3  policy 1/1  scope 4/4
 agreement: 18/20 scored items  (bar: 18/20: PASS)
 --------
 **Issue analysis**
 
-`
+```
 item      gold    verdict  agree  note
 issue-19  accept  reject   NO     failed: bounded-scope
-`
+```
 My rubric's decision was that this issue should be rejected while the gold label said it was to be accepted.  The reasoning was that the scope was beyond what a beginner would be able to do.
 
 **Check rationale**
@@ -278,7 +289,7 @@ I decided to select issue number 40 because I am interested in learning about fr
 2. What the verdict identified correctly, and what you weighed that the rubric could
    not.
 The verdict did identify correctly that both issues generally passed as they had a defined scope and were open, but it could only account for what I wrote in my description to match which I may prefer more; everybody has a different preference for what they may want to work on at a moment in time which can't quite be expressed in a brief summary, and I preferred 40 over 69 despite the AI ranked 69 higher.
-3. The anticipated difficulty in claiming it.]
+3. The anticipated difficulty in claiming it.
 I think that this issue will have average to below average difficulty in claiming it as there are no comments on it asking to contribute and its a front-end issue.
 ---
 
