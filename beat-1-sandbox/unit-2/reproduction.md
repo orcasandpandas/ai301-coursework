@@ -39,7 +39,7 @@ Answer all four sections. Quote source text directly; paraphrase does not satisf
 fields.
 
 **Run history**
-`
+```
 item    gold    verdict  agree  note
 pkg-01  accept  reject   NO     failed: claim-specific
 pkg-02  reject  reject   yes    
@@ -61,10 +61,10 @@ pkg-17  reject  reject   yes
 pkg-18  reject  reject   yes    
 pkg-19  reject  reject   yes    
 pkg-20  reject  reject   yes    
-`
+```
 
 
-`
+```
 item    gold    verdict  agree  note
 pkg-01  accept  accept   yes    
 pkg-02  reject  reject   yes    
@@ -86,7 +86,7 @@ pkg-17  reject  reject   yes
 pkg-18  reject  reject   yes    
 pkg-19  reject  reject   yes    
 pkg-20  reject  reject   yes    
-`
+```
 
 categories: clear-accept 7/8  disclosure 1/1  no-evidence 4/4  unfollowable-comms 3/3  wrong-target 4/4
 agreement: 19/20 scored items  (bar: 18/20: PASS)
